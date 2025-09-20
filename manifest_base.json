@@ -1,0 +1,13 @@
+{
+  "defines": {
+    "audioIn": {
+      "sampleRate": 11025,
+      "numChannels": 1,
+      "bitsPerSample": 16,
+      "i2s": {
+        "pdm": 1,
+        "num": 0
+      }
+    }
+  }
+}

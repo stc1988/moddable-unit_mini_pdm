@@ -1,0 +1,53 @@
+{
+  "include": ["./manifest_base.json"],
+  "platforms": {
+    "esp32/m5atom_echo": {
+      "include": ["./targets/manifest_m5atom.json"]
+    },
+    "esp32/m5atom_lite": {
+      "include": ["./targets/manifest_m5atom.json"]
+    },
+    "esp32/m5atom_matrix": {
+      "include": ["./targets/manifest_m5atom.json"]
+    },
+    "esp32/m5atom_s3": {
+      "include": ["./targets/manifest_m5atom_s3.json"]
+    },
+    "esp32/m5atom_s3_lite": {
+      "include": ["./targets/manifest_m5atom_s3.json"]
+    },
+    "esp32/m5atom_s3r": {
+      "include": ["./targets/manifest_m5atom_s3.json"]
+    },
+    "esp32/m5atom_s3r_m12": {
+      "include": ["./targets/manifest_m5atom_s3.json"]
+    },
+    "esp32/m5atom_s3r_cam": {
+      "include": ["./targets/manifest_m5atom_s3.json"]
+    },
+    "esp32/m5dial": {
+      "include": ["./targets/manifest_m5dial.json"]
+    },
+    "esp32/m5stack": {
+      "include": ["./targets/manifest_m5stack.json"]
+    },
+    "esp32/m5stack_fire": {
+      "include": ["./targets/manifest_m5stack.json"]
+    },
+    "esp32/m5stack_core2": {
+      "include": ["./targets/manifest_m5stack_core2.json"]
+    },
+    "esp32/m5stack_cores3": {
+      "include": ["./targets/manifest_m5stack_cores3.json"]
+    },
+    "esp32/m5stick_c": {
+      "include": ["./targets/manifest_m5stick.json"]
+    },
+    "esp32/m5stick_cplus": {
+      "include": ["./targets/manifest_m5stick.json"]
+    },
+    "esp32/m5stick_cplus2": {
+      "include": ["./manifest/manifest_m5stick.json"]
+    }
+  }
+}

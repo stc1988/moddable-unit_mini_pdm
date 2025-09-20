@@ -1,0 +1,17 @@
+{
+  "include": ["./manifest_base.json"],
+  "platforms": {
+    "esp32/m5stack": {
+      "include": ["./targets/manifest_m5stack.json_port_c.json"]
+    },
+    "esp32/m5stack_fire": {
+      "include": ["./targets/manifest_m5stack.json_port_c.json"]
+    },
+    "esp32/m5stack_core2": {
+      "include": ["./targets/manifest_m5stack_core2_port_c.json"]
+    },
+    "esp32/m5stack_cores3": {
+      "include": ["./targets/manifest_m5stack_cores3_port_c.json"]
+    }
+  }
+}
