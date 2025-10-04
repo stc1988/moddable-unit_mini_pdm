@@ -11,8 +11,7 @@ To use this driver, you need to add the following to the include section of the 
   "include": [
     // ...
     {
-      "git": "https://github.com/stc1988/moddable-unit_mini_pdm.git",
-      "manifest": "manifest.json"
+      "git": "https://github.com/stc1988/moddable-unit_mini_pdm.git"
     }
   ]
 }
@@ -27,3 +26,15 @@ In the manifest file, each device is configured with pin asgins for connection t
 | lr_pin   | CLK    |
 
 If you want to use it connected to PORT B or PORT C, you can include `manifest_port_b.json` or `manifest_port_c.json`.
+
+```jsonc
+{
+  "include": [
+    // ...
+    {
+      "git": "https://github.com/stc1988/moddable-unit_mini_pdm.git",
+      "manifest": "manifest_port_b.json"
+    }
+  ]
+}
+```
